@@ -117,3 +117,27 @@ input[type="submit"]:hover {
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
 }
+
+.clima{
+
+}
+
+.clima > p:first-of-type{
+  font-size: 3rem;
+}
+.clima p{
+  text-align: center;
+  margin: 0;
+}
+
+.clima p span{
+  font-size:1rem;
+  vertical-align: super;
+}
+
+.temp_min_max{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
